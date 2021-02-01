@@ -1,19 +1,17 @@
 document.addEventListener("keypress", function (e) {
     if (e.code == "KeyA") {
-        console.log("The 'A' key is pressed.");
+        new Audio("white_keys/A.mp3").play();
     } else if (e.code == "KeyS") {
-        console.log("The 'S' key is pressed.");
+        new Audio("white_keys/S.mp3").play();
     } else if (e.code == "KeyD") {
-        console.log("The 'D' key is pressed.");
+        new Audio("white_keys/D.mp3").play();
     } else if (e.code == "KeyF") {
-        console.log("The 'F' key is pressed.");
+        new Audio("white_keys/F.mp3").play();
     } else if (e.code == "KeyG") {
-        console.log("The 'G' key is pressed.");
+        new Audio("white_keys/G.mp3").play();
     } else if (e.code == "KeyH") {
-        console.log("The 'H' key is pressed.");
+        new Audio("white_keys/H.mp3").play();
     } else if (e.code == "KeyJ") {
-        console.log("The 'J' key is pressed.");
-    } else {
-        console.log("Warning! The wrong key is pressed!");
+        new Audio("white_keys/J.mp3").play();
     }
 });
